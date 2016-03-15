@@ -1,17 +1,17 @@
 #include "stdafx.h"
-//#include "Head.h"
+#include "Head.h"
 //#include "Tape.h"
 //
-//
-//Head::Head(void)
-//{
-//}
-//
-//
-//Head::~Head(void)
-//{
-//}
-//
+
+Head::Head(void)
+{
+}
+
+
+Head::~Head(void)
+{
+}
+
 //void Head::SetTape(Tape &_t)
 //{
 //	tapeRef = _t; 

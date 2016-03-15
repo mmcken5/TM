@@ -1,32 +1,26 @@
-﻿Build started 2016-03-15 12:21:41 PM.
+﻿Build started 2016-03-15 12:52:16 PM.
      1>Project "c:\Users\Mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\mmcken5_se3310_assignment3\mmcken5_se3310_assignment3.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\mmcken5_se3310_assignment3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\mmcken5_se3310_assignment3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FinalState.cpp Head.cpp StartState.cpp State.cpp Tape.cpp tm.cpp Transition.cpp
+         C:\Program Files (x86)\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\mmcken5_se3310_assignment3.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Head.cpp StartState.cpp State.cpp tm.cpp Transition.cpp
          Transition.cpp
          tm.cpp
-         Tape.cpp
          State.cpp
          StartState.cpp
          Head.cpp
-         FinalState.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.lib" /MACHINE:X86 Debug\FinalState.obj
-         Debug\Head.obj
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.lib" /MACHINE:X86 Debug\Head.obj
          Debug\StartState.obj
          Debug\State.obj
-         Debug\Tape.obj
          Debug\tm.obj
          Debug\stdafx.obj
          Debug\Transition.obj
-     1>tm.obj : error LNK2019: unresolved external symbol "public: __thiscall Tape::Tape(void)" (??0Tape@@QAE@XZ) referenced in function _wmain
-     1>tm.obj : error LNK2019: unresolved external symbol "public: __thiscall Tape::Tape(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Tape@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _wmain
-     1>tm.obj : error LNK2019: unresolved external symbol "public: __thiscall Tape::~Tape(void)" (??1Tape@@QAE@XZ) referenced in function _wmain
-     1>c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.exe : fatal error LNK1120: 3 unresolved externals
+     1>tm.obj : error LNK2005: "public: __thiscall Head::Head(void)" (??0Head@@QAE@XZ) already defined in Head.obj
+     1>c:\users\mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\Debug\mmcken5_se3310_assignment3.exe : fatal error LNK1169: one or more multiply defined symbols found
      1>Done Building Project "c:\Users\Mike\documents\visual studio 2012\Projects\mmcken5_se3310_assignment3\mmcken5_se3310_assignment3\mmcken5_se3310_assignment3.vcxproj" (Rebuild target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:02.17
+Time Elapsed 00:00:03.33

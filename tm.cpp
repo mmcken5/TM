@@ -10,20 +10,56 @@
 
 using namespace std; 
 
+class Tape; // Forward declare Tape so that head knows about it
+
 class Head
 {
+public:
+	Head(void)
+	{
 
+	}
+	void SetTape(Tape& _t)
+	{
+
+	}
+	void MoveRight()
+	{
+
+	}
+	void MoveLeft()
+	{
+
+	}
+
+private:
+	//Tape tapeRef;
+	int position;
 };
 
 class Tape
 {
 public:
-	Tape(void);
-	Tape(string);
-	char Read();
-	void Write(char);
-	void UpdateHeadPosition(int);
-	~Tape(void);
+	Tape(void)
+	{
+
+	}
+	Tape(string)
+	{
+
+	}
+	char Read()
+	{
+
+	}
+	void Write(char)
+	{
+
+	}
+	void UpdateHeadPosition(int)
+	{
+
+	}
 
 private:
 	int headPosition;
